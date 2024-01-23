@@ -1,0 +1,40 @@
+.tarea-contenedor {
+  width: 100%;
+  min-height: 65px;
+  background-color: #ecebe8;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  cursor: pointer; 
+}
+
+
+
+/* Texto */
+
+.tarea-texto {
+  color: #3d423c;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+/* Icono */
+
+.tarea-eliminar {
+  color: #3d423c;
+  width: 25px;
+  margin: 5px;
+}
+
+.tarea-contenedor.completada{
+  background-color: #c5dbad;
+  text-decoration: line-through;
+}
+

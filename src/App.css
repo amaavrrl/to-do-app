@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: #ecebe8;
+  font-family: roboto, sans-serif;
+}
+
+h1{
+  color: black;
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  
+}
+
+.contenedor-to-do{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.tareas{
+  width: 100%;
+  max-width: 600px;
+  min-height: 500px;
+  background-color: #e3dacb;
+  padding: 25px;
+  margin: 10vh auto;
+  border-radius: 25px;
+  border: 2px solid #3d423c; 
+}
+
+
+@media only screen and (max-width: 588px) {
+  #boton-agregar {
+    margin-top: 12px;
+  }
+}
+
