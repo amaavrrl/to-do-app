@@ -29,6 +29,7 @@ function TareaIngresada(props){
     
     return(
         <form className="tarea-formulario" onSubmit={agregarTarea}>
+
             <input 
             className="tarea-input" type="text" 
             placeholder="Ingrese una tarea" name="texto"
@@ -39,7 +40,7 @@ function TareaIngresada(props){
                 variant="contained"
                 size="small"
                 endIcon={<AddTaskTwoToneIcon />}
-                type="submit" // Agregado para que funcione como un botón de envío
+                type="submit" 
             >
                 Agregar
             </Button>
